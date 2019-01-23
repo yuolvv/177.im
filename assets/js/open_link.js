@@ -902,7 +902,7 @@ var searchURL = {
     },
     "googletrends": {
         "search": "https://trends.google.com/trends/explore?q=%keyword%",
-        "home": "ttps://trends.google.com/trends"
+        "home": "https://trends.google.com/trends"
     },
     "spotify": {
         "search": "https://open.spotify.com/search/results/%keyword%",
