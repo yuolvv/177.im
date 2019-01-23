@@ -3,9 +3,17 @@
 
 <head>
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <!--<script type="text/javascript" src="//use.typekit.net/cyg8ujn.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
 
     <meta charset="utf-8">
     <style type="text/css">
+        /* @font-face {
+  font-family: NuvoMediumWOFF;
+  src: url(nuvo-medium-woff-demo.woff) format("woff");
+       
+}*/
+        
         body {
             background: #2B2B2B;
             font-family: "Lucida Grande", "ff-nuvo-web-pro-1", "ff-nuvo-web-pro-2", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -333,7 +341,7 @@
         }
     </style>
 
-    <title> 177 导航</title>
+    <title>177 导航</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <link rel="apple-touch-icon-precomposed" href="ios.png" />
@@ -359,11 +367,55 @@
                     <p class='wordname'>腾讯云</p><img src="assets/images/qcloud.png" class="wordicon">
                 </div>
             </a>
+
+            <!--
+        <a href="https://s.weibo.com/weibo/金湖" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>金湖</p><img src="http://lackar.com/aa/icon/sinaweibo.png" class="wordicon">
+        </div></a>
+
+        <a href="https://www.youtube.com/results?search_query=google+earth+studio" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>google earth studio</p><img src="http://lackar.com/aa/icon/youtube.png" class="wordicon">
+        </div></a>
+        
+        <a href="https://s.weibo.com/weibo?q=%E8%89%BA%E6%9C%AF%E5%8D%87" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>艺术升</p><img src="http://lackar.com/aa/icon/sinaweibo.png" class="wordicon">
+        </div></a>
+      
+        <a href="https://s.weibo.com/weibo/%E5%90%B4%E6%95%AC%E7%90%8F" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>吴敬琏</p><img src="http://lackar.com/aa/icon/sinaweibo.png" class="wordicon">
+        </div></a>
+
+        
+        <a href="https://twitter.com/search?q=%E8%85%BE%E9%B3%8C" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>腾鳌</p><img src="http://lackar.com/aa/icon/twitter.png" class="wordicon">
+        </div></a>
+
+        <a href="https://twitter.com/search?q=%E6%91%84%E5%BD%B1%E5%B8%88%E5%8D%A2%E5%B9%BF" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>摄影师卢广</p><img src="http://lackar.com/aa/icon/twitter.png" class="wordicon">
+        </div></a>
+        
+
+        <a href="https://s.weibo.com/weibo/%E6%B3%89%E6%B8%AF" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>泉港</p><img src="http://lackar.com/aa/icon/sinaweibo.png" class="wordicon">
+        </div></a>
+
+        <a href="https://www.google.com/search?q=%E8%80%92%E9%98%B3" target="_blank" class='wordsub'onclick='ga('send', 'event', 'hotwords', 'click', 'e');'><div>
+          <p class='wordname'>耒阳</p><img src="http://lackar.com/aa/icon/google.png" class="wordicon">
+        </div></a>
+        -->
+
+            <!--
+        <a href="https://miibo.taobao.com" target="_blank" class='wordsub' onclick='ga('send', 'event', 'hotwords', 'click', 'g');'><div>
+          <div class='addot' ></div><p class='wordname'>我是广告，点我</p><img src="http://lackar.com/aa/icon/taobao.png" class="wordicon">
+        </div></a>
+        -->
         </div>
 
     </div>
 
     <div class='content'>
+
+
         <div class='kw'>
 
             <img src="assets/images/searchicon.png" class="searchicon">
@@ -387,24 +439,20 @@
             </div>
 
             <div class='top'>
-                <img id='twitter' src="assets/icon/twitter.png" class="pop" onclick='search(this)' />
+                <img id='douban' class="pop" src="assets/icon/douban.png" onclick='search(this)' />
             </div>
-
             <div class='top'>
                 <img id='sinaweibo' class="pop" src="assets/icon/sinaweibo.png" onclick='search(this)' />
             </div>
-
-            <div class='top'>
-                <img id='douban' class="pop" src="assets/icon/douban.png" onclick='search(this)' />
-            </div>
-
             <div class='top'>
                 <img id='googleimage' class="pop" src="assets/icon/googleimage.png" onclick='search(this)' />
             </div>
             <div class='top'>
                 <img id='pinterest' src="assets/icon/pinterest.png" class="pop" onclick='search(this)' />
             </div>
-
+            <div class='top'>
+                <img id='twitter' src="assets/icon/twitter.png" class="pop" onclick='search(this)' />
+            </div>
             <div class='top'>
                 <img id='googleditu' class="pop" src="assets/icon/googlemaps.png" onclick='search(this)' />
             </div>
@@ -415,310 +463,10 @@
 
         </div>
 
+
+
         <div class='entrances'>
 
-            <div class='catalog'>
-                <p class='catalogname'>新闻</p>
-                <div class='top'>
-                    <img id='theinitium' class="topicon" src="assets/icon/theinitium.png" onclick='search(this)' />
-                    <p class='topname'>端</p>
-                </div>
-
-
-                <div class='sub'>
-                    <img id='163news' src="grey.gif" data-original="assets/icon/163news.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>网易新闻</p>
-                </div>
-                <div class='sub'>
-                    <img id='qqnews' src="grey.gif" data-original="assets/icon/qqnews.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>腾讯新闻</p>
-                </div>
-                <div class='sub'>
-                    <img id='ap' src="grey.gif" data-original="assets/icon/ap.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>AP 美联社</p>
-                </div>
-                <div class='sub'>
-                    <img id='bloomberg' src="grey.gif" data-original="assets/icon/bloomberg.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Bloomberg</p>
-                </div>
-
-
-
-                <div class='sub'>
-                    <img id='googlenewscn' src="grey.gif" data-original="assets/icon/googlenewscn.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Google新闻</p>
-                </div>
-                <div class='sub'>
-                    <img id='bbcnews' src="grey.gif" data-original="assets/icon/bbcnews.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>BBC News</p>
-                </div>
-                <div class='sub'>
-                    <img id='googletrends' src="grey.gif" data-original="assets/icon/googletrends.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Google Trends</p>
-                </div>
-
-
-                <div class='sub'>
-                    <img id='sinaweibo' src="grey.gif" data-original="assets/icon/sinaweibo.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>新浪微博</p>
-                </div>
-                <div class='sub'>
-                    <img id='twitter' src="grey.gif" data-original="assets/icon/twitter.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Twitter</p>
-                </div>
-
-
-                <div class='sub'>
-                    <img id='reuters' src="grey.gif" data-original="assets/icon/reuters.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Reuters 路透社</p>
-                </div>
-
-
-
-                <div class='sub'>
-                    <img id='cnn' src="grey.gif" data-original="assets/icon/cnn.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>CNN</p>
-                </div>
-
-
-                <div class='sub'>
-                    <img id='xinhua' src="grey.gif" data-original="assets/icon/xinhua.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>新华网</p>
-                </div>
-                <div class='sub'>
-                    <img id='qdaily' src="grey.gif" data-original="assets/icon/qdaily.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>好奇心日报</p>
-                </div>
-                <div class='sub'>
-                    <img id='feedly' src="grey.gif" data-original="assets/icon/feedly.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Feedly</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='jandan' src="grey.gif" data-original="assets/icon/jandan.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>煎蛋</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='guardian' src="grey.gif" data-original="assets/icon/guardian.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Guardian 卫报</p>
-                </div>
-                <div class='sub'>
-                    <img id='ifeng' src="grey.gif" data-original="assets/icon/ifeng.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>凤凰网</p>
-                </div>
-                <div class='sub'>
-                    <img id='wikinews' src="grey.gif" data-original="assets/icon/wikinews.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Wikinews</p>
-                </div>
-
-            </div>
-
-            <div class='catalog'>
-                <p class='catalogname'>科技数码</p>
-                <div class='top'>
-                    <img id='ithome' class="topicon" src="assets/icon/ithome.png" onclick='search(this)' />
-                    <p class='topname'>IT之家</p>
-                </div>
-                <div class='sub'>
-                    <img id='ifanr' src="grey.gif" data-original="assets/icon/ifanr.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>爱范儿</p>
-                </div>
-                <div class='sub'>
-                    <img id='36kr' src="grey.gif" data-original="assets/icon/36kr.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>36氪</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='tnw' src="grey.gif" data-original="assets/icon/tnw.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>The Next Web</p>
-                </div>
-                <div class='sub'>
-                    <img id='engadget' src="grey.gif" data-original="assets/icon/engadget.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Engadget</p>
-                </div>
-                <div class='sub'>
-                    <img id='techcrunch' src="grey.gif" data-original="assets/icon/techcrunch.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Tech Crunch</p>
-                </div>
-                <div class='sub'>
-                    <img id='sspai' src="grey.gif" data-original="assets/icon/sspai.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>少数派</p>
-                </div>
-                <div class='sub'>
-                    <img id='kickstarter' src="grey.gif" data-original="assets/icon/kickstarter.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Kickstarter</p>
-                </div>
-                <div class='sub'>
-                    <img id='dgtle' src="grey.gif" data-original="assets/icon/dgtle.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>数字尾巴</p>
-                </div>
-                <div class='sub'>
-                    <img id='pingwest' src="grey.gif" data-original="assets/icon/pingwest.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>PingWest品玩</p>
-                </div>
-                <div class='sub'>
-                    <img id='fastcompany' src="grey.gif" data-original="assets/icon/fastcompany.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Fast Company</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='gdgt' src="grey.gif" data-original="assets/icon/gdgt.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>gdgt</p>
-                </div>
-                <div class='sub'>
-                    <img id='arstechnica' src="grey.gif" data-original="assets/icon/arstechnica.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Ars Technica</p>
-                </div>
-                <div class='sub'>
-                    <img id='verge' src="grey.gif" data-original="assets/icon/verge.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>The Verge</p>
-                </div>
-                <div class='sub'>
-                    <img id='allthingsd' src="grey.gif" data-original="assets/icon/allthingsd.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>AllThingsD</p>
-                </div>
-                <div class='sub'>
-                    <img id='gigaom' src="grey.gif" data-original="assets/icon/gigaom.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>GigaOM</p>
-                </div>
-                <div class='sub'>
-                    <img id='cnet' src="grey.gif" data-original="assets/icon/cnet.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>CNET</p>
-                </div>
-
-            </div>
-
-            <div class='catalog'>
-                <p class='catalogname'>编程</p>
-                <div class='top'>
-                    <img id='stackoverflow' class="topicon" src="assets/icon/stackoverflow.png?1" onclick='search(this)' />
-                    <p class='topname'>Stack Overflow</p>
-                </div>
-                <div class='sub'>
-                    <img id='github' src="grey.gif" data-original="assets/icon/github.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Github</p>
-                </div>
-                <div class='sub'>
-                    <img id='appledev' src="grey.gif" data-original="assets/icon/appledev.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Apple Devloper</p>
-                </div>
-                <div class='sub'>
-                    <img id='cocoapods' src="grey.gif" data-original="assets/icon/cocoapods.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>CocoaPods</p>
-                </div>
-                <div class='sub'>
-                    <img id='unity' src="grey.gif" data-original="assets/icon/unity.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Unity</p>
-                </div>
-                <div class='sub'>
-                    <img id='apisio' src="grey.gif" data-original="assets/icon/apisio.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>APIs.io</p>
-                </div>
-                <div class='sub'>
-                    <img id='codepen' src="grey.gif" data-original="assets/icon/codepen.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>CodePen.IO</p>
-                </div>
-                <div class='sub'>
-                    <img id='cocoacontrols' src="grey.gif" data-original="assets/icon/cocoacontrols.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Cocoa Controls</p>
-                </div>
-                <div class='sub'>
-                    <img id='cocoachina' src="grey.gif" data-original="assets/icon/cocoachina.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>CocoaChina</p>
-                </div>
-                <div class='sub'>
-                    <img id='code4app' src="grey.gif" data-original="assets/icon/code4app.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Code4App</p>
-                </div>
-                <div class='sub'>
-                    <img id='processing' src="grey.gif" data-original="assets/icon/processing.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Processing</p>
-                </div>
-                <div class='sub'>
-                    <img id='v2ex' src="grey.gif" data-original="assets/icon/v2ex.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>V2EX</p>
-                </div>
-                <div class='sub'>
-                    <img id='alexa' src="grey.gif" data-original="assets/icon/alexa.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Alexa</p>
-                </div>
-                <div class='sub'>
-                    <img id='godaddy' src="grey.gif" data-original="assets/icon/godaddy.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>GoDaddy</p>
-                </div>
-                <div class='sub'>
-                    <img id='namedotcom' src="grey.gif" data-original="assets/icon/namedotcom.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Name.com</p>
-                </div>
-                <div class='sub'>
-                    <img id='csdn' src="grey.gif" data-original="assets/icon/csdn.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>CSDN</p>
-                </div>
-                <div class='sub'>
-                    <img id='shodan' src="grey.gif" data-original="assets/icon/shodan.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Shodan</p>
-                </div>
-                <div class='sub'>
-                    <img id='w3school' src="grey.gif" data-original="assets/icon/w3school.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>w3school</p>
-                </div>
-            </div>
-
-            <div class='catalog'>
-                <p class='catalogname'>书籍</p>
-                <div class='top'>
-                    <img id='doubanbook' src="assets/icon/doubanbook.png" class="topicon" onclick='search(this)' />
-                    <p class='topname'>豆瓣读书</p>
-                </div>
-                <div class='sub'>
-                    <img id='kindle' src="grey.gif" data-original="assets/icon/kindle.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Kindle电子书</p>
-                </div>
-                <div class='sub'>
-                    <img id='googlebook' src="grey.gif" data-original="assets/icon/googlebook.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Google图书</p>
-                </div>
-                <div class='sub'>
-                    <img id='goodreads' src="grey.gif" data-original="assets/icon/goodreads.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Goodreads</p>
-                </div>
-                <div class='sub'>
-                    <img id='issuu' src="grey.gif" data-original="assets/icon/issuu.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Issuu</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='shuge' src="grey.gif" data-original="assets/icon/shuge.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>书格</p>
-                </div>
-                <div class='sub'>
-                    <img id='phaidon' src="grey.gif" data-original="assets/icon/phaidon.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Phaidon</p>
-                </div>
-                <div class='sub'>
-                    <img id='duokan' src="grey.gif" data-original="assets/icon/duokan.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>多看阅读</p>
-                </div>
-                <div class='sub'>
-                    <img id='ikandou' src="grey.gif" data-original="assets/icon/ikandou.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>爱看豆</p>
-                </div>
-                <div class='sub'>
-                    <img id='wikibooks' src="grey.gif" data-original="assets/icon/wikibooks.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Wikibooks</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='qidian' src="grey.gif" data-original="assets/icon/qidian.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>起点中文小说网</p>
-                </div>
-                <div class='sub'>
-                    <img id='weipan' src="grey.gif" data-original="assets/icon/weipan.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>微盘</p>
-                </div>
-
-            </div>
 
 
             <div class='catalog'>
@@ -826,7 +574,9 @@
                     <img id='icpsr' src="grey.gif" data-original="assets/icon/icpsr.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>ICPSR</p>
                 </div>
-
+                <!--<div class='sub'>
+		<img  id='wikidata' src="grey.gif" data-original="assets/icon/wikidata.png"  class="subicon" onclick='search(this)' /><p class='subname'>Wikidata</p>
+		</div>-->
 
 
                 <div class='sub'>
@@ -834,6 +584,9 @@
                     <p class='subname'>Lynda</p>
                 </div>
 
+                <!--<div class='sub'>
+		<img  id='ehow' src="grey.gif" data-original="assets/icon/ehow.png"  class="subicon" onclick='search(this)' /><p class='subname'>eHow</p>
+		</div>-->
                 <div class='sub'>
                     <img id='howcast' src="grey.gif" data-original="assets/icon/howcast.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>Howcast</p>
@@ -908,7 +661,13 @@
                     <img id='pixiv' src="grey.gif" data-original="assets/icon/pixiv.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>Pixiv</p>
                 </div>
-
+                <!--
+    <div class='sub'>
+    <img  id='themeforest' src="grey.gif" data-original="assets/icon/tthemeforestut.png"  class="subicon" onclick='search(this)' /><p class='subname'>ThemeForest</p>
+    </div>
+    <div class='sub'>
+    <img  id='graphicburger' src="grey.gif" data-original="assets/icon/graphicburger.png"  class="subicon" onclick='search(this)' /><p class='subname'>GraphicBurger</p>
+    </div>-->
                 <div class='sub'>
                     <img id='houzz' src="grey.gif" data-original="assets/icon/houzz.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>Houzz</p>
@@ -917,12 +676,34 @@
                     <img id='archdaily' src="grey.gif" data-original="assets/icon/archdaily.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>Arch Daily</p>
                 </div>
-
+                <!--<div class='sub'>
+    <img  id='archilovers' src="grey.gif" data-original="assets/icon/archilovers.png" class="subicon" onclick='search(this)' /><p class='subname'>Archilovers</p>
+    </div>
+    <div class='sub'>
+    <img  id='architizer' src="grey.gif" data-original="assets/icon/architizer.png" class="subicon" onclick='search(this)' /><p class='subname'>Architizer</p>
+    </div>-->
                 <div class='sub'>
                     <img id='sketchfab' src="grey.gif" data-original="assets/icon/sketchfab.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>Sketchfab</p>
                 </div>
-
+                <!--<div class='sub'>
+		<img  id='visualy' src="grey.gif" data-original="assets/icon/visualy.png"  class="subicon" onclick='search(this)' /><p class='subname'>Visual.ly</p>
+		</div>
+		<div class='sub'>
+		<img  id='smashingmagazine' src="grey.gif" data-original="assets/icon/smashingmagazine.png"  class="subicon" onclick='search(this)' /><p class='subname2'>Smashing</br>Magazine</p>
+		</div>
+    <div class='sub'>
+    <img  id='patterntap' src="grey.gif" data-original="assets/icon/patterntap.png"  class="subicon" onclick='search(this)' /><p class='subname'>PatternTap</p>
+    </div>
+		<div class='sub'>
+		<img  id='iconfinder' src="grey.gif" data-original="assets/icon/iconfinder.png"  class="subicon" onclick='search(this)' /><p class='subname'>IconFinder</p>
+		</div>
+<div class='sub'>
+		<img  id='logopond' src="grey.gif" data-original="assets/icon/logopond.png"  class="subicon" onclick='search(this)' /><p class='subname'>Logopond</p>
+		</div>
+    <div class='sub'>
+    <img  id='seeklogo' src="grey.gif" data-original="assets/icon/seeklogo.png"  class="subicon" onclick='search(this)' /><p class='subname'>SeekLogo</p>
+    </div>-->
                 <div class='sub'>
                     <img id='myfonts' src="grey.gif" data-original="assets/icon/myfonts.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>MyFonts</p>
@@ -943,12 +724,21 @@
                     <img id='designernews' src="grey.gif" data-original="assets/icon/designernews.png" class="subicon" onclick='search(this)' />
                     <p class='subname'>Designer News</p>
                 </div>
-
+                <!--
+    <div class='sub'>
+    <img  id='brandtale' src="grey.gif" data-original="assets/icon/brandtale.png"  class="subicon" onclick='search(this)' /><p class='subname'>Brandtale</p>
+    </div>
+<div class='sub'>
+    <img  id='chromeexp' src="grey.gif" data-original="assets/icon/chromeexp.png"  class="subicon" onclick='search(this)' /><p class='subname'>Chrome</br>Experiments</p>
+    </div>-->
                 <div class='sub'>
                     <img id='googleart' src="grey.gif" data-original="assets/icon/googleart.png" class="subicon" onclick='search(this)' />
                     <p class='subname2'>Google</br>Cultural Institute</p>
                 </div>
 
+                <!--<div class='sub'>
+		<img  id='moma' src="grey.gif" data-original="assets/icon/moma.png"  class="subicon" onclick='search(this)' /><p class='subname'>MoMA</p>
+		</div>-->
 
 
 
@@ -1047,6 +837,426 @@
                     <p class='subname'>凯迪</p>
                 </div>
             </div>
+
+            <div class='catalog'>
+                <p class='catalogname'>新闻</p>
+                <div class='top'>
+                    <img id='theinitium' class="topicon" src="assets/icon/theinitium.png" onclick='search(this)' />
+                    <p class='topname'>端</p>
+                </div>
+
+
+                <div class='sub'>
+                    <img id='163news' src="grey.gif" data-original="assets/icon/163news.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>网易新闻</p>
+                </div>
+                <div class='sub'>
+                    <img id='qqnews' src="grey.gif" data-original="assets/icon/qqnews.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>腾讯新闻</p>
+                </div>
+                <div class='sub'>
+                    <img id='ap' src="grey.gif" data-original="assets/icon/ap.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>AP 美联社</p>
+                </div>
+                <div class='sub'>
+                    <img id='bloomberg' src="grey.gif" data-original="assets/icon/bloomberg.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Bloomberg</p>
+                </div>
+
+
+
+                <div class='sub'>
+                    <img id='googlenewscn' src="grey.gif" data-original="assets/icon/googlenewscn.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Google新闻</p>
+                </div>
+                <div class='sub'>
+                    <img id='bbcnews' src="grey.gif" data-original="assets/icon/bbcnews.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>BBC News</p>
+                </div>
+                <div class='sub'>
+                    <img id='googletrends' src="grey.gif" data-original="assets/icon/googletrends.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Google Trends</p>
+                </div>
+
+
+
+                <!--<div class='sub'>
+    <img  id='wired' src="grey.gif" data-original="assets/icon/wired.png"  class="subicon" onclick='search(this)' /><p class='subname'>WIRED</p>
+    </div>-->
+
+                <div class='sub'>
+                    <img id='sinaweibo' src="grey.gif" data-original="assets/icon/sinaweibo.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>新浪微博</p>
+                </div>
+                <div class='sub'>
+                    <img id='twitter' src="grey.gif" data-original="assets/icon/twitter.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Twitter</p>
+                </div>
+
+
+                <div class='sub'>
+                    <img id='reuters' src="grey.gif" data-original="assets/icon/reuters.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Reuters 路透社</p>
+                </div>
+
+
+
+                <div class='sub'>
+                    <img id='cnn' src="grey.gif" data-original="assets/icon/cnn.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>CNN</p>
+                </div>
+
+
+                <div class='sub'>
+                    <img id='xinhua' src="grey.gif" data-original="assets/icon/xinhua.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>新华网</p>
+                </div>
+                <div class='sub'>
+                    <img id='qdaily' src="grey.gif" data-original="assets/icon/qdaily.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>好奇心日报</p>
+                </div>
+                <div class='sub'>
+                    <img id='feedly' src="grey.gif" data-original="assets/icon/feedly.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Feedly</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='jandan' src="grey.gif" data-original="assets/icon/jandan.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>煎蛋</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='guardian' src="grey.gif" data-original="assets/icon/guardian.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Guardian 卫报</p>
+                </div>
+                <div class='sub'>
+                    <img id='ifeng' src="grey.gif" data-original="assets/icon/ifeng.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>凤凰网</p>
+                </div>
+                <div class='sub'>
+                    <img id='wikinews' src="grey.gif" data-original="assets/icon/wikinews.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Wikinews</p>
+                </div>
+
+            </div>
+
+
+            <div class='catalog'>
+                <p class='catalogname'>购物</p>
+                <div class='top'>
+                    <img id='taobao' class="topicon" src="assets/icon/taobao.png" onclick='search(this)' />
+                    <p class='topname'>淘宝</p>
+                </div>
+                <div class='sub'>
+                    <img id='smzdm' src="grey.gif" data-original="assets/icon/smzdm.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>什么值得买</p>
+                </div>
+                <div class='sub'>
+                    <img id='tmall' src="grey.gif" data-original="assets/icon/tmall.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>天猫</p>
+                </div>
+                <div class='sub'>
+                    <img id='360buy' src="grey.gif" data-original="assets/icon/jingdong.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>京东</p>
+                </div>
+                <div class='sub'>
+                    <img id='amazoncn' src="grey.gif" data-original="assets/icon/amazoncn.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>亚马逊</p>
+                </div>
+                <div class='sub'>
+                    <img id='yhd' src="grey.gif" data-original="assets/icon/yhd.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>一号店</p>
+                </div>
+                <div class='sub'>
+                    <img id='amazon' src="grey.gif" data-original="assets/icon/amazon.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Amazon</p>
+                </div>
+
+                <!--<div class='sub'>
+    <img  id='meilishuo' src="grey.gif" data-original="assets/icon/meilishuo.png"  class="subicon" onclick='search(this)' /><p class='subname'>美丽说</p>
+    </div>-->
+
+                <div class='sub'>
+                    <img id='ebay' src="grey.gif" data-original="assets/icon/ebay.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>eBay</p>
+                </div>
+                <div class='sub'>
+                    <img id='etsy' src="grey.gif" data-original="assets/icon/etsy.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Etsy</p>
+                </div>
+                <div class='sub'>
+                    <img id='asos' src="grey.gif" data-original="assets/icon/asos.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>ASOS</p>
+                </div>
+                <div class='sub'>
+                    <img id='1688' src="grey.gif" data-original="assets/icon/1688.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>阿里巴巴</p>
+                </div>
+                <div class='sub'>
+                    <img id='fancy' src="grey.gif" data-original="assets/icon/fancy.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Fancy</p>
+                </div>
+                <div class='sub'>
+                    <img id='mogujie' src="grey.gif" data-original="assets/icon/mogujie.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>蘑菇街</p>
+                </div>
+                <div class='sub'>
+                    <img id='suning' src="grey.gif" data-original="assets/icon/suning.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>苏宁易购</p>
+                </div>
+                <div class='sub'>
+                    <img id='tictail' src="grey.gif" data-original="assets/icon/tictail.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Tictail</p>
+                </div>
+                <div class='sub'>
+                    <img id='verygoods' src="grey.gif" data-original="assets/icon/verygoods.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>VeryGoods</p>
+                </div>
+                <div class='sub'>
+                    <img id='thngs' src="grey.gif" data-original="assets/icon/thngs.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Thngs</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='chiphell' src="grey.gif" data-original="assets/icon/chiphell.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Chiphell</p>
+                </div>
+                <!--<div class='sub'>
+    <img  id='society6' src="grey.gif" data-original="assets/icon/society6.png"  class="subicon" onclick='search(this)' /><p class='subname'>Society6</p>
+    </div>-->
+            </div>
+
+
+
+
+
+
+
+            <div class='catalog'>
+                <p class='catalogname'>编程</p>
+                <div class='top'>
+                    <img id='stackoverflow' class="topicon" src="assets/icon/stackoverflow.png?1" onclick='search(this)' />
+                    <p class='topname'>Stack Overflow</p>
+                </div>
+                <div class='sub'>
+                    <img id='github' src="grey.gif" data-original="assets/icon/github.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Github</p>
+                </div>
+                <div class='sub'>
+                    <img id='appledev' src="grey.gif" data-original="assets/icon/appledev.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Apple Devloper</p>
+                </div>
+                <div class='sub'>
+                    <img id='cocoapods' src="grey.gif" data-original="assets/icon/cocoapods.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>CocoaPods</p>
+                </div>
+                <div class='sub'>
+                    <img id='unity' src="grey.gif" data-original="assets/icon/unity.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Unity</p>
+                </div>
+                <div class='sub'>
+                    <img id='apisio' src="grey.gif" data-original="assets/icon/apisio.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>APIs.io</p>
+                </div>
+                <div class='sub'>
+                    <img id='codepen' src="grey.gif" data-original="assets/icon/codepen.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>CodePen.IO</p>
+                </div>
+                <div class='sub'>
+                    <img id='cocoacontrols' src="grey.gif" data-original="assets/icon/cocoacontrols.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Cocoa Controls</p>
+                </div>
+                <div class='sub'>
+                    <img id='cocoachina' src="grey.gif" data-original="assets/icon/cocoachina.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>CocoaChina</p>
+                </div>
+                <div class='sub'>
+                    <img id='code4app' src="grey.gif" data-original="assets/icon/code4app.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Code4App</p>
+                </div>
+                <div class='sub'>
+                    <img id='processing' src="grey.gif" data-original="assets/icon/processing.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Processing</p>
+                </div>
+                <div class='sub'>
+                    <img id='v2ex' src="grey.gif" data-original="assets/icon/v2ex.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>V2EX</p>
+                </div>
+                <div class='sub'>
+                    <img id='alexa' src="grey.gif" data-original="assets/icon/alexa.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Alexa</p>
+                </div>
+                <div class='sub'>
+                    <img id='godaddy' src="grey.gif" data-original="assets/icon/godaddy.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>GoDaddy</p>
+                </div>
+                <div class='sub'>
+                    <img id='namedotcom' src="grey.gif" data-original="assets/icon/namedotcom.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Name.com</p>
+                </div>
+                <div class='sub'>
+                    <img id='csdn' src="grey.gif" data-original="assets/icon/csdn.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>CSDN</p>
+                </div>
+                <div class='sub'>
+                    <img id='shodan' src="grey.gif" data-original="assets/icon/shodan.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Shodan</p>
+                </div>
+                <div class='sub'>
+                    <img id='w3school' src="grey.gif" data-original="assets/icon/w3school.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>w3school</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class='catalog'>
+                <p class='catalogname'>APP</p>
+                <div class='top'>
+                    <img id='fndio' class="topicon" src="assets/icon/appstore.png?2" onclick='search(this)' />
+                    <p class='topname'>App Store</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='producthunt' src="grey.gif" data-original="assets/icon/producthunt.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Product Hunt</p>
+                </div>
+                <div class='sub'>
+                    <img id='wandoujia' src="grey.gif" data-original="assets/icon/wandoujia.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>豌豆荚</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='googleplay' src="grey.gif" data-original="assets/icon/googleplay.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Google Play</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='yingyongbao' src="grey.gif" data-original="assets/icon/yingyongbao.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>应用宝</p>
+                </div>
+                <div class='sub'>
+                    <img id='coolapk' src="grey.gif" data-original="assets/icon/coolapk.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>酷安网</p>
+                </div>
+                <!--<div class='sub'>
+    <img  id='beautifulpixels' src="grey.gif" data-original="assets/icon/beautifulpixels.png"  class="subicon" onclick='search(this)' /><p class='subname'>Beautiful Pixels</p>
+    </div>-->
+                <div class='sub'>
+                    <img id='alternativeto' src="grey.gif" data-original="assets/icon/alternativeto.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>AlternativeTo</p>
+                </div>
+                <div class='sub'>
+                    <img id='appannie' src="grey.gif" data-original="assets/icon/appannie.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>App Annie</p>
+                </div>
+                <div class='sub'>
+                    <img id='doubanapp' src="grey.gif" data-original="assets/icon/doubanapp.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>豆瓣移动应用</p>
+                </div>
+                <div class='sub'>
+                    <img id='betalist' src="grey.gif" data-original="assets/icon/betalist.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Beta List</p>
+                </div>
+                <!--<div class='sub'>
+    <img  id='163app' src="grey.gif" data-original="assets/icon/163app.png" class="subicon" onclick='search(this)' /><p class='subname'>网易应用中心</p>
+    </div>-->
+                <div class='sub'>
+                    <img id='creativeapplications' src="grey.gif" data-original="assets/icon/creativeapplications.png" class="subicon" onclick='search(this)' />
+                    <p class='subname2'>Creative</br>Applications</p>
+                </div>
+                <div class='sub'>
+                    <img id='chromeexts' src="grey.gif" data-original="assets/icon/chromeexts.png" class="subicon" onclick='search(this)' />
+                    <p class='subname2'>Chrome</br>网上应用店</p>
+                </div>
+                <!--<div class='sub'>
+    <img  id='overlapps' src="grey.gif" data-original="assets/icon/overlapps.png"  class="subicon" onclick='search(this)' /><p class='subname'>Overlapps</p>
+    </div>-->
+
+                <!--<div class='sub'>
+    <img  id='appdesignserved' src="grey.gif" data-original="assets/icon/appdesignserved.png"  class="subicon" onclick='search(this)' /><p class='subname2'>App Design</br>Served</p>
+    </div>-->
+                <div class='sub'>
+                    <img id='windowsphonecn' src="grey.gif" data-original="assets/icon/windowsphonecn.png" class="subicon" onclick='search(this)' />
+                    <p class='subname2'>Windows Phone</br>应用+游戏</p>
+                </div>
+                <div class='sub'>
+                    <img id='knicket' src="grey.gif" data-original="assets/icon/knicket.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>KNICKET</p>
+                </div>
+                <!--<div class='sub'>
+    <img  id='Quixey' src="grey.gif" data-original="assets/icon/Quixey.png"  class="subicon" onclick='search(this)' /><p class='subname'>Quixey</p>
+    </div>
+    <div class='sub'>
+    <img  id='xyo' src="grey.gif" data-original="assets/icon/xyo.png"  class="subicon" onclick='search(this)' /><p class='subname'>XYO</p>
+    </div>
+    <div class='sub'>
+    <img  id='appstorm' src="grey.gif" data-original="assets/icon/appstorm.png"  class="subicon" onclick='search(this)' /><p class='subname'>Appstorm</p>
+    </div>-->
+            </div>
+
+            <div class='catalog'>
+                <p class='catalogname'>书籍</p>
+                <div class='top'>
+                    <img id='doubanbook' src="assets/icon/doubanbook.png" class="topicon" onclick='search(this)' />
+                    <p class='topname'>豆瓣读书</p>
+                </div>
+                <div class='sub'>
+                    <img id='kindle' src="grey.gif" data-original="assets/icon/kindle.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Kindle电子书</p>
+                </div>
+                <div class='sub'>
+                    <img id='googlebook' src="grey.gif" data-original="assets/icon/googlebook.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Google图书</p>
+                </div>
+                <div class='sub'>
+                    <img id='goodreads' src="grey.gif" data-original="assets/icon/goodreads.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Goodreads</p>
+                </div>
+                <div class='sub'>
+                    <img id='issuu' src="grey.gif" data-original="assets/icon/issuu.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Issuu</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='shuge' src="grey.gif" data-original="assets/icon/shuge.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>书格</p>
+                </div>
+                <div class='sub'>
+                    <img id='phaidon' src="grey.gif" data-original="assets/icon/phaidon.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Phaidon</p>
+                </div>
+                <div class='sub'>
+                    <img id='duokan' src="grey.gif" data-original="assets/icon/duokan.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>多看阅读</p>
+                </div>
+                <div class='sub'>
+                    <img id='ikandou' src="grey.gif" data-original="assets/icon/ikandou.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>爱看豆</p>
+                </div>
+                <div class='sub'>
+                    <img id='wikibooks' src="grey.gif" data-original="assets/icon/wikibooks.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Wikibooks</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='qidian' src="grey.gif" data-original="assets/icon/qidian.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>起点中文小说网</p>
+                </div>
+                <div class='sub'>
+                    <img id='weipan' src="grey.gif" data-original="assets/icon/weipan.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>微盘</p>
+                </div>
+
+            </div>
+
+
+
+
 
             <div class='catalog'>
                 <p class='catalogname'>音乐</p>
@@ -1157,170 +1367,6 @@
 
             </div>
 
-
-
-            <div class='catalog'>
-                <p class='catalogname'>购物</p>
-                <div class='top'>
-                    <img id='taobao' class="topicon" src="assets/icon/taobao.png" onclick='search(this)' />
-                    <p class='topname'>淘宝</p>
-                </div>
-                <div class='sub'>
-                    <img id='smzdm' src="grey.gif" data-original="assets/icon/smzdm.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>什么值得买</p>
-                </div>
-                <div class='sub'>
-                    <img id='tmall' src="grey.gif" data-original="assets/icon/tmall.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>天猫</p>
-                </div>
-                <div class='sub'>
-                    <img id='360buy' src="grey.gif" data-original="assets/icon/jingdong.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>京东</p>
-                </div>
-                <div class='sub'>
-                    <img id='amazoncn' src="grey.gif" data-original="assets/icon/amazoncn.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>亚马逊</p>
-                </div>
-                <div class='sub'>
-                    <img id='yhd' src="grey.gif" data-original="assets/icon/yhd.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>一号店</p>
-                </div>
-                <div class='sub'>
-                    <img id='amazon' src="grey.gif" data-original="assets/icon/amazon.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Amazon</p>
-                </div>
-
-
-
-                <div class='sub'>
-                    <img id='ebay' src="grey.gif" data-original="assets/icon/ebay.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>eBay</p>
-                </div>
-                <div class='sub'>
-                    <img id='etsy' src="grey.gif" data-original="assets/icon/etsy.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Etsy</p>
-                </div>
-                <div class='sub'>
-                    <img id='asos' src="grey.gif" data-original="assets/icon/asos.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>ASOS</p>
-                </div>
-                <div class='sub'>
-                    <img id='1688' src="grey.gif" data-original="assets/icon/1688.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>阿里巴巴</p>
-                </div>
-                <div class='sub'>
-                    <img id='fancy' src="grey.gif" data-original="assets/icon/fancy.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Fancy</p>
-                </div>
-                <div class='sub'>
-                    <img id='mogujie' src="grey.gif" data-original="assets/icon/mogujie.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>蘑菇街</p>
-                </div>
-                <div class='sub'>
-                    <img id='suning' src="grey.gif" data-original="assets/icon/suning.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>苏宁易购</p>
-                </div>
-                <div class='sub'>
-                    <img id='tictail' src="grey.gif" data-original="assets/icon/tictail.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Tictail</p>
-                </div>
-                <div class='sub'>
-                    <img id='verygoods' src="grey.gif" data-original="assets/icon/verygoods.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>VeryGoods</p>
-                </div>
-                <div class='sub'>
-                    <img id='thngs' src="grey.gif" data-original="assets/icon/thngs.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Thngs</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='chiphell' src="grey.gif" data-original="assets/icon/chiphell.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Chiphell</p>
-                </div>
-
-            </div>
-
-
-
-            <div class='catalog'>
-                <p class='catalogname'>APP</p>
-                <div class='top'>
-                    <img id='fndio' class="topicon" src="assets/icon/appstore.png?2" onclick='search(this)' />
-                    <p class='topname'>App Store</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='producthunt' src="grey.gif" data-original="assets/icon/producthunt.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Product Hunt</p>
-                </div>
-                <div class='sub'>
-                    <img id='wandoujia' src="grey.gif" data-original="assets/icon/wandoujia.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>豌豆荚</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='googleplay' src="grey.gif" data-original="assets/icon/googleplay.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Google Play</p>
-                </div>
-
-                <div class='sub'>
-                    <img id='yingyongbao' src="grey.gif" data-original="assets/icon/yingyongbao.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>应用宝</p>
-                </div>
-                <div class='sub'>
-                    <img id='coolapk' src="grey.gif" data-original="assets/icon/coolapk.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>酷安网</p>
-                </div>
-                <!--<div class='sub'>
-    <img  id='beautifulpixels' src="grey.gif" data-original="assets/icon/beautifulpixels.png"  class="subicon" onclick='search(this)' /><p class='subname'>Beautiful Pixels</p>
-    </div>-->
-                <div class='sub'>
-                    <img id='alternativeto' src="grey.gif" data-original="assets/icon/alternativeto.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>AlternativeTo</p>
-                </div>
-                <div class='sub'>
-                    <img id='appannie' src="grey.gif" data-original="assets/icon/appannie.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>App Annie</p>
-                </div>
-                <div class='sub'>
-                    <img id='doubanapp' src="grey.gif" data-original="assets/icon/doubanapp.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>豆瓣移动应用</p>
-                </div>
-                <div class='sub'>
-                    <img id='betalist' src="grey.gif" data-original="assets/icon/betalist.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>Beta List</p>
-                </div>
-                <!--<div class='sub'>
-    <img  id='163app' src="grey.gif" data-original="assets/icon/163app.png" class="subicon" onclick='search(this)' /><p class='subname'>网易应用中心</p>
-    </div>-->
-                <div class='sub'>
-                    <img id='creativeapplications' src="grey.gif" data-original="assets/icon/creativeapplications.png" class="subicon" onclick='search(this)' />
-                    <p class='subname2'>Creative</br>Applications</p>
-                </div>
-                <div class='sub'>
-                    <img id='chromeexts' src="grey.gif" data-original="assets/icon/chromeexts.png" class="subicon" onclick='search(this)' />
-                    <p class='subname2'>Chrome</br>网上应用店</p>
-                </div>
-                <!--<div class='sub'>
-    <img  id='overlapps' src="grey.gif" data-original="assets/icon/overlapps.png"  class="subicon" onclick='search(this)' /><p class='subname'>Overlapps</p>
-    </div>-->
-
-                <!--<div class='sub'>
-    <img  id='appdesignserved' src="grey.gif" data-original="assets/icon/appdesignserved.png"  class="subicon" onclick='search(this)' /><p class='subname2'>App Design</br>Served</p>
-    </div>-->
-                <div class='sub'>
-                    <img id='windowsphonecn' src="grey.gif" data-original="assets/icon/windowsphonecn.png" class="subicon" onclick='search(this)' />
-                    <p class='subname2'>Windows Phone</br>应用+游戏</p>
-                </div>
-                <div class='sub'>
-                    <img id='knicket' src="grey.gif" data-original="assets/icon/knicket.png" class="subicon" onclick='search(this)' />
-                    <p class='subname'>KNICKET</p>
-                </div>
-
-            </div>
-
-
-
             <div class='catalog'>
                 <p class='catalogname'>游戏</p>
                 <div class='top'>
@@ -1418,6 +1464,9 @@
                 </div>
             </div>
 
+
+
+
             <div class='catalog'>
                 <p class='catalogname'>图片</p>
                 <div class='top'>
@@ -1501,6 +1550,7 @@
 
             </div>
 
+
             <div class='catalog'>
                 <p class='catalogname'>旅行</p>
                 <div class='top'>
@@ -1574,6 +1624,9 @@
 
             </div>
 
+
+
+
             <div class='catalog'>
                 <p class='catalogname'>传统搜索</p>
                 <div class='top'>
@@ -1633,6 +1686,86 @@
                     <p class='subname'>Gmail</p>
                 </div>
             </div>
+
+
+            <div class='catalog'>
+                <p class='catalogname'>科技数码</p>
+                <div class='top'>
+                    <img id='ithome' class="topicon" src="assets/icon/ithome.png" onclick='search(this)' />
+                    <p class='topname'>IT之家</p>
+                </div>
+                <div class='sub'>
+                    <img id='ifanr' src="grey.gif" data-original="assets/icon/ifanr.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>爱范儿</p>
+                </div>
+                <div class='sub'>
+                    <img id='36kr' src="grey.gif" data-original="assets/icon/36kr.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>36氪</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='tnw' src="grey.gif" data-original="assets/icon/tnw.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>The Next Web</p>
+                </div>
+                <div class='sub'>
+                    <img id='engadget' src="grey.gif" data-original="assets/icon/engadget.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Engadget</p>
+                </div>
+                <div class='sub'>
+                    <img id='techcrunch' src="grey.gif" data-original="assets/icon/techcrunch.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Tech Crunch</p>
+                </div>
+                <div class='sub'>
+                    <img id='sspai' src="grey.gif" data-original="assets/icon/sspai.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>少数派</p>
+                </div>
+                <div class='sub'>
+                    <img id='kickstarter' src="grey.gif" data-original="assets/icon/kickstarter.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Kickstarter</p>
+                </div>
+                <div class='sub'>
+                    <img id='dgtle' src="grey.gif" data-original="assets/icon/dgtle.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>数字尾巴</p>
+                </div>
+                <div class='sub'>
+                    <img id='pingwest' src="grey.gif" data-original="assets/icon/pingwest.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>PingWest品玩</p>
+                </div>
+                <div class='sub'>
+                    <img id='fastcompany' src="grey.gif" data-original="assets/icon/fastcompany.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Fast Company</p>
+                </div>
+
+                <div class='sub'>
+                    <img id='gdgt' src="grey.gif" data-original="assets/icon/gdgt.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>gdgt</p>
+                </div>
+                <div class='sub'>
+                    <img id='arstechnica' src="grey.gif" data-original="assets/icon/arstechnica.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>Ars Technica</p>
+                </div>
+                <div class='sub'>
+                    <img id='verge' src="grey.gif" data-original="assets/icon/verge.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>The Verge</p>
+                </div>
+                <div class='sub'>
+                    <img id='allthingsd' src="grey.gif" data-original="assets/icon/allthingsd.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>AllThingsD</p>
+                </div>
+                <div class='sub'>
+                    <img id='gigaom' src="grey.gif" data-original="assets/icon/gigaom.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>GigaOM</p>
+                </div>
+                <div class='sub'>
+                    <img id='cnet' src="grey.gif" data-original="assets/icon/cnet.png" class="subicon" onclick='search(this)' />
+                    <p class='subname'>CNET</p>
+                </div>
+
+            </div>
+
+
+
+
 
 
 
@@ -1738,11 +1871,17 @@
 
         <div class="copyright">
             <p>
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -<br> © 2015~2019 177.im</br>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>
+                <!-- 帮助我们创造令所有人获益的产品，<a href="#" target="_blank">捐助我们</a><br> -->
+                © 2015~2019 177.im</br>
+
                 <font color="#2B2B2B">Hey, I love you as much as I love the world ! </font>
                 </br>
             </p>
         </div>
+    </div>
+
+    </div>
     </div>
 
 
